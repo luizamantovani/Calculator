@@ -11,7 +11,6 @@ function clearDisplay(){
 
 function calculate(){
     try{
-        adjustScroll();
         display.value = eval(display.value)
     } catch{
         display.value = "Error"
@@ -21,3 +20,4 @@ function calculate(){
 function adjustScroll() {
     display.scrollLeft = display.scrollWidth;
 }
+
