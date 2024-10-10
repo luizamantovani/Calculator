@@ -5,6 +5,7 @@ body{
     justify-content: center;
     align-items: center;
     height: 100vh;
+    background-color: hsl(271, 76%, 90%);
 }
 
 input{
