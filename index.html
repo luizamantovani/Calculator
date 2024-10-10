@@ -4,25 +4,29 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Luiza Calculator</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="cointainer">
-        <input type="display" readonly>
-        <button onclick="apper('+')">+</button>
-        <button onclick="apper('7')">7</button>
-        <button onclick="apper('8')">8</button>
-        <button onclick="apper('9')">9</button>
-        <button onclick="apper('-')">-</button>
-        <button onclick="apper('4')">4</button>
-        <button onclick="apper('5')">5</button>
-        <button onclick="apper('6')">6</button>
-        <button onclick="apper('*')">*</button>
-        <button onclick="apper('1')">1</button>
-        <button onclick="apper('2')">2</button>
-        <button onclick="apper('3')">3</button>
-        <button onclick="apper('/')">/</button>
-        <button onclick="clear()">C</button>
-        <button onclick="calculate()">=</button>
+    <div class="container">
+        <input id="display" readonly>
+        <div class="btnContainer">
+            <button class="sign" onclick="apear('+')">+</button>
+            <button onclick="apear('7')">7</button>
+            <button onclick="apear('8')">8</button>
+            <button onclick="apear('9')">9</button>
+            <button class="sign" onclick="apear('-')">-</button>
+            <button onclick="apear('4')">4</button>
+            <button onclick="apear('5')">5</button>
+            <button onclick="apear('6')">6</button>
+            <button class="sign" onclick="apear('*')">*</button>
+            <button onclick="apear('1')">1</button>
+            <button onclick="apear('2')">2</button>
+            <button onclick="apear('3')">3</button>
+            <button class="sign" onclick="apear('/')">/</button>
+            <button class="sign" onclick="clearDisplay()">C</button>
+            <button class="sign equal" onclick="calculate()">=</button>
+        </div>
     </div>
+    <script src="main.js"></script>
 </body>
 </html>
