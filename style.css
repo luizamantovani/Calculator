@@ -61,14 +61,6 @@ button:active{
     padding: 10px;
 }
 
-.equal{
-    width: 150px;
-    height: 70px;
-}
-
-button:nth-last-child(1) {
-    grid-column: span 2;
-}
 
 .sign{
     background-color: hsl(271, 76%, 60%);
