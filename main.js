@@ -21,3 +21,6 @@ function adjustScroll() {
     display.scrollLeft = display.scrollWidth;
 }
 
+function clearLastDigit() {
+    display.value = display.value.slice(0, -1); 
+}
